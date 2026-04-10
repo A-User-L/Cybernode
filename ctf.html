@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CTF.node</title>
+        <link href="ctf.css" rel="stylesheet" type="text/css" media="all">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">    
+    </head>
+    <body id="cTFstartBody">
+        <div id="cTFrulesContainer">
+            <p id="cTFgreeting">
+                Hello, <span id="username1">User</span>, Welcome to my <span id="easyGreen">EASY</span> CTF challenge. 
+                There are many ways to get the main Flag, and there are even multible "sub" Flags. 
+                Can you find them all? And lastly have fun, and happy 
+                You can use ANY* way you want to find the flags, I dont judge. <br>
+                <span id="cTFcaution"> 
+                    * I, The owner of this website hosted by Neocites, and Neocites themselves. 
+                    Are NOT responsible for the consequences of YOUR actions.
+                    Use common sense...
+                </span>
+            </p>
+        </div>
+        <!--    
+            I did say you can use ANY way, so if your reading this good job (So far). ;3
+        -->
+        <div id="cTFresult">
+            <input id="flagInput" type="text">
+            <button id="submitFlagButton" onclick="flagSubmit()">Submit</button>
+        </div>
+
+    </body>
+    <script>
+
+        // get username
+        const username = localStorage.getItem("username");
+
+        if(!username == ""){
+                
+            // Place username across page
+            document.getElementById("username1").textContent = username;
+        }
+    </script>
+
+    <!--JS file-->
+    <script src="ctf.js"></script>
+</html>

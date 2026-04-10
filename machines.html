@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/Pixles/tumblr_inline_mwbolm0dK91r8evev540.gif" type="image/x-icon">
+        <link href="machines.css" rel="stylesheet" type="text/css" media="all">
+        <title>Machines.node</title>
+    </head>
+    <body class="LANnodeBody">
+        <div class="LANcontainer">
+            <div class="LANkeyContainer">
+                <p class="LANkey">
+                    #Local I.P. 
+                    <span class="clickMeIP">
+                        (Click Me)
+                    </span>
+                    <span class="hostNamesKey">
+                        #HostNames
+                    </span>
+                </p>
+                <p class="elefteriaIP" onclick="showElefteria()">
+                    192.168.1.134 
+                    <span class="hostNames">
+                        Elefteria
+                    </span>
+                </p>
+                <div id="elefteria" class="specs">
+                     <ul>
+                        <li>Desktop</li>
+                        <li>CPU: &emsp; AMD Ryzen 7 5700G &emsp; 4.6GHz</li>
+                        <li>RAM: &emsp; 32GB DDR4 &emsp; 3200MHz</li>
+                        <li>GPU: &emsp; Nvidia RTX 3060</li>
+                        <li>Storage: &emsp; 2.2TB</li>
+                        <ul>
+                            <li>NVMe: 256GB</li>
+                            <li>SATA SSD: 1TB</li>
+                            <li>HDD: 1TB</li>
+                        </ul>
+                        <li>OS: &emsp; Arch Linux</li>
+                    </ul>
+                </div>
+                <p class="archiIP" onclick="showArchi()">
+                    192.168.1.108 
+                    <span class="hostNames">
+                        Archi
+                    </span>
+                </p>
+                <div id="archi" class="specs">
+                     <ul>
+                        <li>Lenovo IdeaPad 100S-14ISBR</li>
+                        <li>CPU: &emsp; Intel Celeron N3060 &emsp; 2.48GHZ</li>
+                        <li>RAM: &emsp; 2GB DDR3L &emsp; 1600MHz</li>
+                        <li>Storage: &emsp; 288GB </li>
+                        <ul>
+                            <li>EMMC: 32GB</li>
+                            <li>M.2: 256GB</li>
+                        </ul>
+                        <li>OS: &emsp; Arch Linux</li>
+                    </ul>
+                </div>
+                <p class="puppypawsIP" onclick="showPuppyPaws()">
+                    192.168.1.106 
+                    <span class="hostNames">
+                        PuppyPaws
+                    </span>
+                </p>
+                <div id="puppyPaws" class="specs">
+                     <ul>
+                        <li>HP ENVY TE01</li>
+                        <li>CPU: &emsp; Intel i7-10700 &emsp; 4.4GHz</li>
+                        <li>RAM: &emsp; 16GB DDR4 &emsp; 3200MHz</li>
+                        <li>Storage: &emsp; 1TB</li>
+                        <ul>
+                            <li>NVMe: 1TB</li>
+                        </ul>
+                        <li>OS: &emsp; Arch Linux</li>
+                        <li>Services:</li>
+                        <ul>
+                            <li>Jellyfin</li>
+                            <li>Kiwix</li>
+                        </ul>
+                    </ul>
+                </div>
+            <a href="home_node.html" target="_blank"><button class="LANreturnHome">Return to Home Node</button></a><br></a>
+        </div>
+    </body>
+    <!--JS file-->
+    <script src="machines.js"></script>
+</html>

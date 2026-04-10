@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bunni.Game</title>
+        <link href="bunni_game.css" rel="stylesheet" type="text/css" media="all">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">    
+    </head>
+    <body class="bunniPage">
+        <div class="container">
+            <div class="welcomeContainer">
+                <H1 calss="welcomeH1">Welcome to the Bunny Game, <span class="username">User</span>!</H1>
+            </div>
+            <h2>Rules:</h2>
+            <p>
+                Guess how many times "Bunny" and "Bun" is said in the video, watch the video then enter how many times you counted. ;3<br>
+                <bold>NO CHEATING!!! >:3</bold><br>
+                <span class="warn">WARN: You WILL have this video stuck in your head,</span> but thats not a bad thing. ;3
+            </p>
+            <h2>Points:</h2>
+            <ul>
+                <li>Guess & count incorectly = 0PT</li>
+                <li>Guess corectly & count incorectly or Guess incorectly & count corectly = 1PT</li>
+                <li>Guess & count corectly = 2PT</li>
+            </ul>
+            <h2>Rewards:</h2>
+            <ul>
+                <li>0PT = Nothing, try again. :/</li>
+                <li>1PT = Ecoragement. ;3</li>
+                <li>2PT = BUNNIIIIII PARRTYYYYYYYYYY!!!!!!! <small>(epilepsy warning)</small></li>
+            </ul>
+            <p>
+                Have fun! ;3
+            </p>
+            <div onclick="hint()"><p id="hint">Want a Hint? ;3c</p></div>
+        </div>
+        <div class="container" id="guessContainer">
+            <h2>Time to guess. :3c</h2>
+            <input type="number" id="guessInput">
+        </div>
+        <div class="container" id="counterContainer">
+            <h2>Count baby Count. XD</h2>
+            <iframe width="700" height="415" src="https://www.youtube.com/embed/EvAhPPejzBQ?si=Jz_4j1E13wzvtij8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="countContainer">
+                <label id="countLabel">0</label><br>
+                <div class="bntContainer">
+                    <button id="decreaseBtn" class="countButtons">Decrease</button>
+                    <button id="increaseBtn" class="countButtons">Increase</button>
+			    </div>
+		    </div>
+            <p>
+                Final answer? ;3c
+            </p>
+            <button class="submitButton" onclick="gotoResult()">Submit</button>
+        </div>
+        <div class="container" id="resultContainer">
+            <h2>Result:</h2>
+            <p>Ready to know how you scored??? :3c<br>
+            <button class="submitButton" onclick="result()">Click me!</button>
+            <p id="twoPTsP">
+                You got 2 Points. Congratulation!!! 🎉🎉🎉🎉 :3<br>
+                You did so well, you totally deserve a party! Now go have some fun. ^^<br>
+                <a href="bunni_party.html" target="_blank"><button class="bunniPartyButton">EnterParty!!!</button><br></a>
+                <button class="submitButton" onClick="window.location.reload();">Play again!</button>
+            </p>
+            <p id="onePTsP">
+                You got 1 Point. Congratulation!!! 🎉🎉🎉🎉 :3<br>
+                You did so well, wanna try and earn the bunny party? ;3c<br>
+                <button class="submitButton" onClick="window.location.reload();">Try again</button>
+            </p>
+            <p id="noPTsP">
+                You got No Points. Please try again! ^^<br>
+                <button class="submitButton" onClick="window.location.reload();">Try again</button>
+            </p>
+        </div>
+        
+    </body>
+    <!--JS file-->
+    <script src="bunni_game.js"></script>
+</html>

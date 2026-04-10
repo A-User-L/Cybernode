@@ -1,0 +1,93 @@
+/* Downloaded Fonts */
+@font-face {
+  font-family: OEM437;
+  src: url(Fonts/PerfectDOSVGA437.ttf);
+}
+
+.welcomePage{
+  background-color: #000000;
+  color: #b3b3b3;
+  font-size: 1.3rem;
+  font-family: "OEM437", serif;
+  display: flex;
+  justify-content:flex-start;  
+  flex-direction: column;
+}
+.passed{
+  color: #00d400;
+  white-space: pre;
+  text-shadow: 0 0 15px #00ff00;
+}
+.failed{
+  color: #fd5151;
+  text-shadow: 0 0 15px #ff6565;
+}
+.warn{
+  color: #808000;
+}
+#pOrFUser{
+  color: #fd5151;
+  white-space: pre;
+  text-shadow: 0 0 15px #ff6565;
+}
+#pOrFPass{
+  color: #fd5151;
+  white-space: pre;
+  text-shadow: 0 0 15px #ff6565;
+}
+.wToCyberNode{
+  color: #f1c0fd;
+  text-shadow: 0px 0px 5px #8f66ad;
+}
+#fakeBoot{
+  display: none;
+}
+.wLabels{
+  font-family: "OEM437", serif;
+}
+.userContainer{ 
+  position: absolute;
+  left: 5px;
+  bottom: 30px;
+  text-align: left;
+}
+.userPass{
+  font-family: "Inconsolata", serif;
+  background: #000000;
+  color: #b3b3b3;
+  text-shadow: 0 0 3px #b3b3b3;
+  border: solid 1px #b3b3b3;
+  padding: 5px;
+  box-shadow: 0px 0px 5px #b3b3b3;
+	transition: box-shadow 0.25s;
+}
+.userPass:hover{
+  box-shadow: 0px 0px 6px #d5a8f5;
+}
+.wEnter{
+  background: #000000;
+  border: 0px;
+}
+.wEnter:hover{
+  box-shadow: 0px 0px 2px #f2c0ff;
+}
+.wEnter:active{
+  box-shadow: 0px 0px 5px #f2c0ff;
+}
+.enterContainer{
+  margin-top: 100px;
+  width: fit-content;
+}
+#enterWebsite{
+  display: none;
+  font-size: 50px;
+  color:  #000000;
+  text-shadow: 0px 0px 3px #cfabcf;
+  transition: text-shadow 0.25s;
+}
+#enterWebsite:hover{
+  text-shadow: 0px 0px 5px #f2c0ff;
+}
+#enterWebsite:active{
+  text-shadow: 0px 0px 8px #f2c0ff;
+}

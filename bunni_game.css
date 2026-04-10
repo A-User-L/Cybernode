@@ -1,0 +1,169 @@
+.bunniPage{
+    background-color: #C8D9F0;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px 30px;
+    background-color: #0f0f0f;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.warn{
+    color: #808000;
+}
+
+.welcomeContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.submitButton{
+    background: black;
+    color:  #C8D9F0;
+    font-family: "Inconsolata", serif;
+    border: solid 2px #567094;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #567094;
+    margin: 10px;
+    padding: 5px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.submitButton:hover{
+    background-color: #010016;
+    color: #C8D9F0;
+    border: solid 2px #9cb6db;
+    box-shadow: 0px 0px 15px #9cb6db;
+}
+
+.submitButton:active{
+    background-color: #00022b;
+    color: #C8D9F0;
+    border: solid 2px #88abdd;
+    box-shadow: 0px 0px 20px #88abdd;
+}
+
+@keyframes gay {
+    0% {background-color: #FF5454; 
+        color:  #FFFF58;
+        border: solid 2px #54FF54;
+        box-shadow: 0px 0px 10px #5554F5}
+    25% {background-color: #FFFF58;         
+        color:  #54FF54;
+        border: solid 2px #5554F5;
+        box-shadow: 0px 0px 10px #FF54F7}
+    50% {background-color: #54FF54;         
+        color:  #5554F5;
+        border: solid 2px #FF54F7;
+        box-shadow: 0px 0px 10px #FF5454}
+    75% {background-color: #5554F5;         
+        color:  #FF54F7;
+        border: solid 2px #FF5454;
+        box-shadow: 0px 0px 10px #FFFF58}
+    100% {background-color: #FF54F7;       
+        color:  #FF5454;
+        border: solid 2px #FFFF58;
+        box-shadow: 0px 0px 10px #54FF54}
+}
+
+
+.bunniPartyButton{
+    animation: gay 1s infinite;
+    font-family: "Inconsolata", serif;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.countContainer{
+	border: 2px;
+	text-align: center;
+	background: linear-gradient(#c2e4ff, #b1bee1);
+	border-radius: 5px;
+	padding: 10px;
+    width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+#countLabel{
+	display: block;
+	text-align: center;
+	font-size: 10em;
+	font-family: Helvetica;
+}
+
+.bntContainer{
+	text-align: center;
+	padding: 10px;
+	border: 5px solid;
+	border-color: black;
+	text-align: center;
+	background: black;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.countButtons{
+	padding: 10px 20px;
+	font-size: 1.5em;
+	color: #c2f2ff;
+	background-color: #99bdd4;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.25s;
+	transition: color 0.25s;
+	transition: box-shadow 0.25s;
+}
+
+.countButtons:hover{
+	background-color: #7793a8;
+	box-shadow: 0px 0px 20px rgb(0, 85, 128);
+}
+.countButtons:active{
+	color: #7798a8;
+	background-color: #c2d8ff;
+	box-shadow: 0px 0px 20px #0000ff;
+}
+
+#guessContainer{
+    text-align: center;
+}
+
+#counterContainer{
+    text-align: center;
+}
+
+#resultContainer{
+    display: none;
+    text-align: center;
+}
+
+#twoPTsP{
+    display: none;
+}
+
+#onePTsP{
+    display: none;
+}
+
+#noPTsP{
+    display: none;
+}

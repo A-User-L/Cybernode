@@ -1,0 +1,120 @@
+.buttonWallPage{
+    display: flex;
+    background: #000000;
+    color: rgb(238, 217, 233);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wallWelcomeH1{
+     font-family: "Audiowide", serif;;
+}
+.wallTitleH3{
+    border: solid 1px #d5a8f5;
+    background: #1b1b1b;
+    transition: background-color 0.25s;
+    transition: box-shadow 0.25s;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    font-family: "Inconsolata", serif;
+}
+.wallTitleH3:hover{
+    border: solid 2px #d5a8f5;
+    box-shadow: 0px 0px 5px #d5a8f5;
+    background-color: #333333;
+    padding: 5px;
+}
+.wallContext{
+    border: solid 1px #d5a8f5;
+    background: #1b1b1b;
+    transition: background-color 0.25s;
+    transition: box-shadow 0.25s;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    font-family: "Inconsolata", serif;
+}
+.wallContext:hover{
+    border: solid 2px #d5a8f5;
+    box-shadow: 0px 0px 5px #d5a8f5;
+    background-color: #333333;
+    padding: 5px;
+}
+.wallWelcomeContainer{
+    border: solid 2px #d5a8f5;
+    background: #0f0f0f;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    transition: background-color 0.25s;
+    transition: box-shadow 0.25s;
+}
+.wallWelcomeContainer:hover{
+    box-shadow: 0px 0px 10px #d5a8f5;
+    background-color: #1b1b1b;
+}
+.buttonWallButton{
+    background: black;
+    color:  #f2c0ff;
+    font-family: "Inconsolata", serif;
+    border: solid 2px #8f66ad;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #8f66ad;
+    margin: 10px;
+    padding: 5px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+.buttonWallButton:hover{
+    background-color: #130016;
+    color: #f6d0ff;
+    border: solid 2px #ab79cf;
+    box-shadow: 0px 0px 15px #ab79cf;
+}
+.buttonWallButton:active{
+    background-color: #2b002b;
+    color: #fae2ff;
+    border: solid 2px #bf87e7;
+    box-shadow: 0px 0px 20px #bf87e7;
+}
+.itemContainer{
+    border: solid 2px #d5a8f5;
+    background: #0f0f0f;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 10px;
+    transition: background-color 0.25s;
+    transition: box-shadow 0.25s;
+}
+.itemContainer:hover{
+    box-shadow: 0px 0px 10px #d5a8f5;
+    background-color: #1b1b1b;
+}
+.gifs{
+    max-height: 175px;
+}
+#clickToExplodeContainer{
+    width: fit-content;
+    height: fit-content;
+}
+#explosionGifContainer{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+#ExplosionGif{
+    width: 100%;
+    height: 100%;
+    display: none;
+}

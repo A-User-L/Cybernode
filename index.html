@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Pixles/tumblr_inline_mwbnkzTawv1r8evev540.gif" type="image/x-icon">
+    <title>athentication.node</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">    
+  </head>
+  <body class="welcomePage" onload="UsernameCheck()" onkeypress="myFunction()">
+    
+    <!--Fake Boot loader-->
+    <p class="bootLoader">
+      Welcome to <span class="wToCyberNode">Cyber Node</span> !<br><br>
+      [<span class="passed">  OK  </span>] Mounting drives.<br>
+      [<span class="passed">  OK  </span>] HTML.<br>
+      [<span class="passed">  OK  </span>] CSS.<br>
+      [<span class="passed">  OK  </span>] JS.<br>
+      [<span class="failed">FAILED</span>] Good code.<br>
+      &emsp;&emsp;&emsp;&emsp; Fixing code. . .<br>
+      [<span class="passed">  OK  </span>] Nodes made on a 1680 x 1050 display.<br>
+      [<span class="passed">  OK  </span>] Website loaded.<br>
+      [<span class="passed">  OK  </span>] Listing for input.<br>
+      [<span id="pOrFUser">FAILED</span>] Username input.<br>
+      &emsp;&emsp;&emsp;&emsp; Enter anything. . .<br>
+      [<span id="pOrFPass">FAILED</span>] Password input.<br>
+      &emsp;&emsp;&emsp;&emsp; Enter anything. . .<br>
+      <span id="fakeBoot">
+        [<span class="passed">  OK  </span>] Sending Username to other Nodes.<br>
+        [<span class="failed">FAILED</span>] Finished all Nodes.<br>
+        [<span class="passed">  OK  </span>] Kinda works on mobile.<br>
+        &emsp;&emsp;&emsp;&emsp; <span class="warn">Warn: Expect things to not work, especily on mobile...</span><br>
+        [<span class="failed">FAILED</span>] Nodes fixed on a 2560 x 1440 display.<br>
+        &emsp;&emsp;&emsp;&emsp; Fixing on a 2560 x 1440 display...<br>
+      </span>
+    </p>
+
+    <!--Can you enter?-->
+    <div class="enterContainer">
+      <p class="enterResult"></p>
+      <a id="enterWebsite" href="home_node.html">Enter Website</a>
+    </div>
+
+    <!--Username and Password-->
+    <div class="userContainer">
+        <label class="wLabels">Username:</label>
+        <input id="userName" class="userPass" type="text" autocomplete="off"><br>
+        <label class="wLabels">Password:</label>
+        <input id="passWord" class="userPass" type="password" autocomplete="off">
+        <button class="wEnter" onclick="WelcomeUser()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"/></svg></button>
+    </div>
+
+    <!--JS-->
+    <script src="index.js"></script>
+  </body>
+</html>

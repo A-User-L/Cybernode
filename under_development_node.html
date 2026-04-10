@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>node.offline</title>
+    <link href="under_development_node.css" rel="stylesheet" type="text/css" media="all">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body onload="underDevPageUser()" id="underDev">
+    <h1 id="devH1">Hi <span id="username1">user</span>, this node is under development.</h1>
+
+    <!--Warning sign-->
+    <div id="devWarningContainer">
+      <div id="devWarning">
+       <span id="gap">WARNING!!!   DANGER!!!   WARNING!!!   DANGER!!!</span>
+       <span id="gap">WARNING!!!   DANGER!!!   WARNING!!!   DANGER!!!</span>
+       </div>
+    </div>
+    <img src="img\rand_gifs\under_constructionA.gif" id="underConstructionGif" alt="under construction gif">
+    
+    <!--NeoCities link-->
+    <a id="neocitiesLink" href="https://neocities.org/" target="_blank">
+      <img src="img\buttons\neocities.png" id="neocitiesLink" alt="neocities.org">
+    </a>
+  </body>
+
+  <script>
+
+    // get username
+    const username = localStorage.getItem("username");
+
+    // Place username across page
+    document.getElementById("username1").textContent = username;
+  </script>
+    
+  <!--JS file-->
+  <script src="under_development_node.js"></script>
+</html>

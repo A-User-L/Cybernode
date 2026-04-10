@@ -1,0 +1,87 @@
+#underDev{
+  background-color: #0a000c;
+  font-family: "Audiowide", serif;
+  text-align: center;
+  overflow: hidden;
+}
+#neocitiesLink{
+  width: 125px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  box-shadow: 0px 0px 10px #ffffff;
+  transition: box-shadow 0.25s;
+  border-radius: 10px;
+}
+#neocitiesLink:hover{
+  box-shadow: 0px 0px 15px #ffffff;
+}
+#neocitiesLink:active{
+  box-shadow: 0px 0px 20px #ffffff;
+}
+#devH1{
+  color: #f2c0ff;
+  text-shadow: 0px 0px 20px #8f66ad;
+	transition: text-shadow 0.25s;
+}
+#devH1:hover{
+  text-shadow: 0px 0px 30px #c089e7;
+}
+#devWarningContainer {
+  font-size: 50px;
+  padding: 10px;
+  animation : devWarningBackground 10s infinite;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-top: 150px;
+}
+#devWarning {
+  animation : devWarningSlide 10s linear infinite;
+}
+#gap{ 
+  margin-right:100px;
+  white-space: nowrap
+}
+@keyframes devWarningSlide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes devWarningBackground {
+  0% {
+    background: #000000;
+    color: #f2c0ff;
+    box-shadow: 0px 0px 20px #f2c0ff;
+    text-shadow: 0px 0px 50px #8f66ad;
+  }
+  50% {
+    background: #8d3fa3;
+    color: #000000;
+    box-shadow: 0px 0px 0px #f2c0ff;
+    text-shadow: 0px 0px 50px #000000;
+  }
+  100% {
+    background: #000000;
+    color: #f2c0ff;
+    box-shadow: 0px 0px 20px #f2c0ff;
+    text-shadow: 0px 0px 50px #8f66ad;
+  }
+}
+#underConstructionGif{
+  margin: 100px;
+  animation: underConstructionGifShadow 1s infinite;
+}
+@keyframes underConstructionGifShadow {
+  0% {
+    box-shadow: 0px 0px 20px #fbffc0;
+  }
+  50% {
+    box-shadow: 0px 0px 0px #f2c0ff;
+  }
+  100% {
+    box-shadow: 0px 0px 20px #e9ffc0;
+  }
+}

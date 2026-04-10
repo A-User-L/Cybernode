@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'noto-sans-mono';
+    src: url('Fonts/NotoSansMono-VariableFont_wdth,wght.ttf') format('woff');
+}
+
+.carsPage{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'noto-sans-mono';
+}
+
+.carSolector{
+    border-bottom: solid 2px #8d8d8d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.redCarSolector{
+    display: inline;
+    width: fit-content;
+    margin: 100px;
+    border: solid 2px #841210;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.comingSoonSolector{
+    display: inline;
+    width: fit-content;
+    margin: 100px;
+    border: solid 2px #0003ad;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#redCarInfo{
+    display: none;
+    width: 90%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: solid 2px #841210;
+    text-align: left;
+    position: relative;
+    background-image: url("img/redCarBackground3.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.redCarModle{
+    background: #000000d8;
+    border: solid 2px #841210d8;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.redCarInternalImageContainerContainer{
+    width: fit-content;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 20px;
+}
+
+.redCarInternalImageContainer{
+    position: sticky;
+    top: 144px;
+    width: 500px;
+    color: #141414dc;
+    border-radius: 20px;
+}
+
+#redCarInternalImage{
+    width: 500px;
+    border: solid 2px #841210d8;
+    border-radius: 20px;
+}
+
+.redCarDiscriptionContainer{
+    background-color: #000000d8;
+    border: solid 2px #841210d8;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 50rem;
+    border-radius: 20px;
+}
+
+#redCarBodyContainer{
+    background-color: #000000d8;
+    border: solid 2px #841210d8;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 50rem;
+    border-radius: 20px;
+}
+
+#redCarEngineTransContainer{
+    background-color: #000000d8;
+    border: solid 2px #841210d8;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 50rem;
+    border-radius: 20px;
+}
+
+#redCarSusContainer{
+    background-color: #000000d8;
+    border: solid 2px #841210d8;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 50rem;
+    border-radius: 20px;
+}
+
+#redCarWheelBrakeContainer{
+    background-color: #000000d8;
+    border: solid 2px #841210d8;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 50rem;
+    border-radius: 20px;
+}
+
+#comingSoonInfo{
+    display: none;
+}
+
+.help{
+    color: #161616dc;
+}

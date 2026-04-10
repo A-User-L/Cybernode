@@ -1,0 +1,60 @@
+@keyframes gay {
+    0% {background-color: #FF5454; }
+    25% {background-color: #FFFF58; }
+    50% {background-color: #54FF54; }
+    75% {background-color: #5554F5; }
+    100% {background-color: #FF54F7; }
+}
+
+.bunniPartyPage {
+    animation: gay 1s infinite;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+#bunni {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  max-height: 200px;
+}
+
+@keyframes gay-button {
+    0% {background-color: #FF5454; 
+        color:  #FFFF58;
+        border: solid 2px #54FF54;
+        box-shadow: 0px 0px 10px #5554F5}
+    25% {background-color: #FFFF58;         
+        color:  #54FF54;
+        border: solid 2px #5554F5;
+        box-shadow: 0px 0px 10px #FF54F7}
+    50% {background-color: #54FF54;         
+        color:  #5554F5;
+        border: solid 2px #FF54F7;
+        box-shadow: 0px 0px 10px #FF5454}
+    75% {background-color: #5554F5;         
+        color:  #FF54F7;
+        border: solid 2px #FF5454;
+        box-shadow: 0px 0px 10px #FFFF58}
+    100% {background-color: #FF54F7;       
+        color:  #FF5454;
+        border: solid 2px #FFFF58;
+        box-shadow: 0px 0px 10px #54FF54}
+}
+
+.returnHomeButton{
+    animation: gay-button 1s infinite;
+    font-family: "Inconsolata", serif;
+    border-radius: 20px;
+    font-size: 2rem;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

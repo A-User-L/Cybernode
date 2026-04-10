@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'noto-sans-mono';
+    src: url('Fonts/NotoSansMono-VariableFont_wdth,wght.ttf') format('woff');
+}
+
+.homePage{
+    background-image: url("img/stars_background.gif");
+    background-repeat: repeat;
+    margin: 0;
+    color: white;
+    font-family: "Audiowide", serif;
+    text-align: center;
+    font-size: 9.5pt;
+}
+
+.titleH3{
+    font-family: "Audiowide", serif;
+    text-align: center;
+
+}
+
+.barContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: "noto-sans-mono", serif;
+}
+
+.leftBar {
+    background: black;
+    border: solid 2px #d5a8f5;
+    width: 23rem;
+    margin: 2rem;
+    margin-top: 0px;
+    max-height: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.contentContainer{
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px 30px;
+    background-color: #0f0f0f;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.mainContentBar{
+    background: black;
+    border: solid 2px #d5a8f5;
+    max-width: 41%;
+    max-height: 100%;
+    margin: 5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.literallyMePup{
+    float: left;
+    margin-right: 15px;
+    height: 22rem;
+    border: solid 2px #d5a8f5;
+    border-radius: 20px;
+}
+
+.rightBar{
+    background: black;
+    border: solid 2px #d5a8f5;
+    width: 23rem;
+    margin: 2rem;
+    margin-top: 0px;
+    max-height: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.toDoListHomeContainer{
+    margin: 10px;
+    background-color: #0f0f0f;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: left;
+
+}
+
+
+.changeLogHomeContainer{
+    margin: 10px;
+    background-color: #0f0f0f;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.changeLog{
+    width: auto;
+}
+
+.aboutMeP{
+    text-align: left;
+}
+
+.aboutMeLists{
+    text-align: left;
+    list-style-type: "•┈••✦ "; 
+    list-style-position: inside;
+}
+
+.aboutNodeP{
+    text-align:left ;
+}
+
+.pinkButton{
+    background: black;
+    color:  #f2c0ff;
+    font-family: "noto-sans-mono", serif;
+    border: solid 2px #8f66ad;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #8f66ad;
+    margin: 10px;
+    padding: 5px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.pinkButton:hover{
+    background-color: #130016;
+    color: #f6d0ff;
+    border: solid 2px #ab79cf;
+    box-shadow: 0px 0px 15px #ab79cf;
+}
+
+.pinkButton:active{
+    background-color: #2b002b;
+    color: #fae2ff;
+    border: solid 2px #bf87e7;
+    box-shadow: 0px 0px 20px #bf87e7;
+}
+
+.blueButton{
+    background: black;
+    color:  #C8D9F0;
+    font-family: "noto-sans-mono", serif;
+    border: solid 2px #567094;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #567094;
+    margin: 10px;
+    padding: 5px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.blueButton:hover{
+    background-color: #010016;
+    color: #C8D9F0;
+    border: solid 2px #9cb6db;
+    box-shadow: 0px 0px 15px #9cb6db;
+}
+
+.blueButton:active{
+    background-color: #00022b;
+    color: #C8D9F0;
+    border: solid 2px #88abdd;
+    box-shadow: 0px 0px 20px #88abdd;
+}
+
+.whiteGrayButton{
+    background: black;
+    color:  #d8d8d8;
+    font-family: "noto-sans-mono", serif;
+    border: solid 2px #b3b3b3;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #b3b3b3;
+    margin: 10px;
+    padding: 5px;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.whiteGrayButton:hover{
+    background-color: #1a1a1a;
+    color: #a1a1a1;
+    border: solid 2px #686868;
+    box-shadow: 0px 0px 15px #686868;
+}
+
+.whiteGrayButton:active{
+    background-color: #1a1a1a;
+    color: #505050;
+    border: solid 2px #505050;
+    box-shadow: 0px 0px 20px #505050;
+}
+
+.songOfTheMonth{
+    border: solid 1px pink;
+}
+
+#cyberSpace{
+    font-family: "Audiowide", serif;
+}
+
+@keyframes gay {
+    0% { color: #FF5454; }
+    25% { color: #FFFF58; }
+    50% { color: #54FF54; }
+    75% { color: #5554F5; }
+    100% { color: #FF54F7; }
+}
+
+.gayAnimation {
+    animation: gay 4s infinite;
+}
+
+@keyframes lesbian {
+    0% { color: #D52D00; }
+    16% { color: #EF7627; }
+    33% { color: #FF9A56; }
+    50% { color: #FFFFFF; }
+    66% { color: #D162A4; }
+    83% { color: #B55690; }
+    100% { color: #A30262; }
+}
+
+.lesbianAnimation {
+    animation: lesbian 5s infinite;
+}
+
+@keyframes trans {
+    0% { color: #5BCEFA; }
+    25% { color: #F5A9B8; }
+    50% { color: #FFFFFF; }
+    75% { color: #F5A9B8; }
+    100% { color: #5BCEFA; }
+}
+
+.transAnimation {
+    animation: trans 5s infinite;
+}
+
+.moonWidget{
+    height: 145px;
+    width: fit-content;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.returnHome{
+    background-color: #000000;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 2px #1b1b1b;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    transition: border 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.returnHome:hover{
+    background-color: #1a1a1a;
+    color: #a1a1a1;
+    border: solid 2px #686868;
+    box-shadow: 0px 0px 15px #686868;
+}
+
+.returnHome:active{
+    background-color: #1a1a1a;
+    color: #505050;
+    border: solid 2px #505050;
+    box-shadow: 0px 0px 20px #505050;
+}
+
+.clippy{
+    width: 100px;
+}
+
+.footer {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
+    font-family: "noto-sans-mono", serif;
+}
+
+.footer .left {
+    width: 33%;
+}
+
+.footer .center {
+    width: 50%;
+}
+
+.footer .right {
+    width: 33%;
+}
+
+.footerText {
+    color: antiquewhite;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 1px;
+    margin: 5px 0 5px 0;
+}
+
+.footer .left .footer-text {
+    text-align: left;
+}
+
+.footer .right .footer-text {
+    text-align: right;
+}

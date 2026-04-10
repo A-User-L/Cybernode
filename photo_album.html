@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>album.node</title>
+        <link href="photo_album.css" rel="stylesheet" type="text/css" media="all">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body id="photoAlbumBody">
+        <div id="camAndInfo">
+            <h1 id="photoWelcomeH1">Welcome to the Photo Album Node <span id="username1">User</span>.</h1>
+            <p>
+                This is a place to put my picture's, Not all of them but most. My camera is a Olympus Tough TG-6,<br>
+                <span id="clickToSeeCam" onclick="seeCam()">click to see camera</span>.
+            </p>
+            <div id="myCam1">
+                <div id="OMtough">
+                    <img src="img/photo_album/OMToughTG6Front.jpg" style="width: 200px;">
+                    <img src="img/photo_album/OMToughTG6Back.jpg" style="width: 200px;"><br>
+                </div>
+                <div id="specsListContainer">
+                    <ul id="specsList">
+                        <li id="specsListElement">12 megapixles</li>
+                        <li id="specsListElement">ISO:	Auto, ISO 100-12800</li>
+                        <li id="specsListElement">Focal length:	25–100 mm</li>
+                        <li id="specsListElement">Waterproof</li> 
+                    </ul>
+                </div>
+            <span id="clickToHideCam" onclick="hideCam()">click to hide camera & specs</span>
+            </div>
+        </div>
+        <div id="photos">
+            <img src="img/photo_album/PB152153.jpg" style="width: 200px; margin: 10px;">
+            <img src="img/photo_album/PB152161.jpg" style="width: 200px; margin: 10px;">
+            <img src="img/photo_album/PB152163.jpg" style="width: 200px; margin: 10px;">
+            <img src="img/photo_album/PB152178.jpg" style="width: 200px; margin: 10px;">
+            <img src="img/photo_album/PB152161.jpg" style="width: 200px; margin: 10px;">
+            <img src="img/photo_album/PB152161.jpg" style="width: 200px; margin: 10px;">
+            <img src="img/photo_album/PB152161.jpg" style="width: 200px; margin: 10px;">
+
+        </div>
+    </body>
+    <script>
+
+        // get username
+        const username = localStorage.getItem("username");
+
+        // Place username across page
+        document.getElementById("username1").textContent = username;
+    </script>
+
+    <!--JS file-->
+    <script src="photo_album.js"></script>
+</html>

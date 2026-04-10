@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'noto-sans-mono';
+    src: url('Fonts/NotoSansMono-VariableFont_wdth,wght.ttf') format('woff');
+}
+
+.LANnodeBody{
+    background: #000000;
+    font-family: 'noto-sans-mono';
+}
+
+.LANcontainer{
+    border: solid 2px #8f66ad;
+    border-radius: 20px;
+    width: 1000px;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.specs{
+    color:  #be89cc;
+}
+
+#archi{
+    display: none;
+}
+
+#elefteria{
+    display: none;
+}
+
+
+#puppyPaws{
+    display: none;
+}
+
+.hostNames{
+    padding-left: 75%;
+    text-align: right;
+}
+
+.hostNamesKey{
+    padding-left: 68%;
+    text-align: right;
+}
+
+.LANkeyContainer{
+    color: #f2c0ff;
+}
+
+.LANkey{
+    color: #310c2e;
+}
+
+.clickMeIP{
+    color: #333333;
+}
+
+.LANreturnHome{
+  background: black;
+  color:  #f2c0ff;
+  border: solid 2px #8f66ad;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #8f66ad;
+  margin: 10px;
+  padding: 5px;
+  transition: background-color 0.25s;
+  transition: color 0.25s;
+  transition: border 0.25s;
+  transition: box-shadow 0.25s;
+}
+
+.LANreturnHome:hover{
+  background-color: #130016;
+  color: #f6d0ff;
+  border: solid 2px #ab79cf;
+  box-shadow: 0px 0px 15px #ab79cf;
+}
+
+.LANreturnHome:active{
+  background-color: #2b002b;
+  color: #fae2ff;
+  border: solid 2px #bf87e7;
+  box-shadow: 0px 0px 20px #bf87e7;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car.node</title>
+        <link href="cars.css" rel="stylesheet" type="text/css" media="all">
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">    
+    </head>
+    <body class="carsPage">
+        <div class="carSolector">
+            <h3 class="redCarSolector" onclick="showRedCarInfo()">"Red Car"</h3>
+            <h3 class="comingSoonSolector" onclick="showComingSoonInfo()">Coming Soon</h3>
+        </div>
+        <div class="carPagetitleContainer">
+            <h1 class="carPagetitle">Welcome <span id="username">User</span> to the garage...</h1>
+        </div>
+        <div id="redCarInfo">
+            <h2 class="redCarModle">2003 Volkswagen Jetta TDI</h2>
+            <div class="redCarInternalImageContainerContainer">
+                <div class="redCarInternalImageContainer">
+                    <img id="redCarInternalImage" src="img\golfInternal.jpg">
+                    <span>&emsp;# Yes I know it's a golf... but it's the same internals</span>
+                </div>
+            </div> 
+            <div class="redCarDiscriptionContainer">
+                <h3 class="redCarModuleTitleH3">Discription</h3>
+                <span class="help">&emsp;# You should hover over the sections</span>
+                <p class="redCarDiscription">
+                    Discription: This is my dads car that I grew up in since I was 5, It's a little red jetta we call "The Red Car". <br>
+                    I've now been driving it around till I get my own car. It's fun, slow, and nimble.
+                </p>
+            </div>
+
+            <div id="redCarBodyContainer">
+                <h3 class="redCarModuleTitleH3">Body</h3>
+                <h4>4D Sedan</h4>
+                <ul>
+                    <li>height: 56.9 in. (1446 mm)</li>
+                    <li>width: 68.3 in. (1735 mm)</li>
+                    <li>Overall length: 172.3 in. (4376 mm)</li>
+                    <li>Track width:</li>
+                        <ul>
+                            <li>Front: 59.6 in. (1513 mm)</li>
+                            <li>Rear: 58.8 in. (1494 mm)</li>
+                        </ul>
+                    <li>Wheelbase: 98.9 in. (2513 mm)</li>
+                    <li>Ground clearance: 4.8 in. (122 mm)</li>
+                    <li>Turning circle: 35.8 ft. (10.9 mm)</li>
+                    <li>Curb weight: 2891 lbs (1279 kg)</li>
+                </ul>
+            </div>
+
+            <div id="redCarEngineTransContainer">
+                <h3 class="redCarModuleTitleH3">Engine & Transmission</h3>
+                <h4>Engine:</h4>
+                <h4>1.9L ALH</h4>
+                <ul>
+                    <li>Type: 4 cylinder inline | 2 valve per cylinder | Single Over Head Cam (SOHC)</li>
+                    <li>Displacement: 1.9L, 1895cc (115.7CI)</li>
+                    <li>Bore: 79.5mm</li>
+                    <li>Stroke: 95.5mm</li>
+                    <li>Compresion ratio: 19.5:1</li>
+                    <li>Power: 90HP (66Kw) @3750RPM</li>
+                    <li>Torque: 155ft-lbs (210Nm) @1900RPM</li>
+                    <li>Fuel: diesel 49 cetine</li>
+                    <li>Engine Managment: Turbo Direct Injection (TDI)</li>
+                </ul>
+                <h4>Mods:</h4>
+                <ul>
+                    <li>IDparts full exhaust system</li>
+                </ul>
+
+                <h4>Transmision:</h4>
+                <h4>02J</h4>
+                <ul>
+                    <li>FWD transaxle</li>
+                    <li>Open diff</li>
+                    <li>1st Gear: 3.788:1</li>
+                    <li>2nd Gear: 2.118:1</li>
+                    <li>3rd Gear: 1.36:1</li>
+                    <li>4th Gear: 0.971:1</li>
+                    <li>5th Gear: 0.756:1</li>
+                    <li>Reverse: 3.6:1</li>
+                    <li>Final Drive: 3.389:1 </li>
+                </ul>
+                <ul>
+                <h4>Mods:</h4>
+                <ul>
+                    <li>single mass flywheel</li>
+                    <li>clutch (OEM or slightly better)</li>
+                </ul>
+            </div>
+
+            <div id="redCarSusContainer">
+                <h3 class="redCarModuleTitleH3">Suspension</h3>
+                <h4>Front:</h4>
+                <h4>macpherson strut</h4>
+                <h4>Mods:</h4>
+                <ul>
+                    <li>Bushings (OEM or slightly better)</li>
+                    <li>Shocks (OEM or slightly better)</li>
+                </ul>
+                <h4>Rear:</h4>
+                <h4>Coil Spring</h4>
+                <h4>Mods:</h4>
+                <ul>
+                    <li>Bushings (OEM or slightly better)</li>
+                    <li>Shocks (OEM or slightly better)</li>
+                </ul>
+            </div>
+            <div id="redCarWheelBrakeContainer">
+                <h3 class="redCarModuleTitleH3">Wheels, Tires, & Brakes</h3>
+                <ul>
+                    <li>Wheels: OEM 5 spoke wheels (15"x 6", 5 Lug, 100mm Bolt Pattern, 38mm Offset)</li>
+                    <li>Tires: primewell allseason 195/65R15</li>
+                    <li>Brakes: unkown, but goodish</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="comingSoonInfo">
+            <h1>WHY DID YOU CLICK THIS!!! It's coming soon.</h1>
+        </div>
+
+    </body>
+
+    <!--JS file-->
+    <script src="cars.js"></script>
+    <!--       
+                    とうげ
+                     峠
+
+           ,                  /\.__      _.-\
+          /~\,      __       /~    \   ./    \
+        ,/  /_\   _/  \    ,/~,_.~'"\ /_\_  /'\
+       / \ /## \ / V#\/\  /~8#  # ## V8  #\/8 8\
+     /~#'#"#""##V&#&# ##\/88#"#8# #" #\#&"##" ##\
+    j# ##### #"#\&&"####/###&  #"#&## #&" #"#&#"#'\
+   /#"#"#####"###'\&##"/&#"####"### # #&#&##"#"### \
+  J#"###"#"#"#"####'\# #"##"#"##"#"#####&"## "#"&"##|\
+    -->
+</html>
